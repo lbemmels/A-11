@@ -79,23 +79,23 @@ body {
 	background-position: center;
 	font-size: 0.75em;
 	line-height: 1.5em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
 }
 
 aside {
 	float: right;
-	width: 30%;
+	width: 40%;
 	height: 100%;
-	padding: 20px;
+	padding: 0px 0px 0px 10px;
 	background-color: #ffffff;
-	margin: 0px 40px 0px 0px;
 }
 
 section {
 	clear: left;
 	width: 60%;
 	height: 100%;
-	padding: 10px;
-	margin: 0px 0px 0px 40px;
 }
 header {
 	font-family: 'Quattrocento Sans', sans-serif;
@@ -105,5 +105,12 @@ header {
 	font-weight: bold;
 	padding: 30px 0px 30px 10px;
 	
+}
+h2	{
+	font-family: 'Quattrocento Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 175%;
+	padding: 10px 0px 20px 0px;
 }
 	
