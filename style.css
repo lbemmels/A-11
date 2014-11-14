@@ -60,17 +60,50 @@ th {
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 nav {
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
-	text-align: center;
+	font-family: 'Quattrocento Sans', sans-serif;
+	text-align: left;
 	font-size: 120%;
 	text-transform: uppercase;
-	padding: 10px;
-	margin: auto;
+	padding: 0px 40px 20px 10px;
 	list-style: none;
 	
 }
 
 li.nav {
 	display: inline;
-	padding: 0px 40px 10px 10px;
+	padding: 0px 40px 20px 0px;
 }
+
+body {
+	font-family: 'Quattrocento Sans', sans-serif;
+	background-position: center;
+	font-size: 0.75em;
+	line-height: 1.5em;
+}
+
+aside {
+	float: right;
+	width: 30%;
+	height: 100%;
+	padding: 20px;
+	background-color: #ffffff;
+	margin: 0px 40px 0px 0px;
+}
+
+section {
+	clear: left;
+	width: 60%;
+	height: 100%;
+	padding: 10px;
+	margin: 0px 0px 0px 40px;
+}
+header {
+	font-family: 'Quattrocento Sans', sans-serif;
+	text-align: left;
+	font-size: 300%;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 30px 0px 30px 10px;
+	
+}
+	
